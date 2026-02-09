@@ -1,0 +1,89 @@
+.float-1,
+.float1-link {
+  z-index: 9;
+  position: fixed;
+  right: 1rem;
+  bottom: 14rem;
+  background-color: #2c52a0;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+  box-sizing: border-box;
+  color: #ffffff !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.float1-link i {
+  transition: transform 0.4s ease-in-out;
+  font-size: 1.9rem;
+}
+
+.float-1:hover i {
+  transform: rotateZ(135deg) translateY(2px);
+}
+.float-1,
+.float2-link {
+  z-index: 9;
+  position: fixed;
+  right: 1rem;
+  bottom: 8rem;
+  background-color: #008000;
+  width: 3.7rem;
+  height: 3.7rem;
+  border-radius: 100%;
+  box-sizing: border-box;
+  color: #ffffff !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.float2-link i {
+  font-size: 1.9rem;
+}
+.pnf {
+  width: 88%;
+  margin: auto;
+  color: #636262;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.pnf-div {
+  padding: 1.5rem;
+  width: 38%;
+  height: 240px;
+}
+.pnf-p1 {
+  font-size: 1.5rem;
+  color: #000000;
+}
+.pnf a {
+  color: #25d366;
+}
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .pnf-div {
+    padding: 1.5rem;
+    width: 85%;
+    height: auto;
+  }
+  .float-1,
+  .float1-link {
+    bottom:25%;
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+  .float-1,
+  .float2-link {
+    bottom: 15%;
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+  .float1-link i,
+  .float2-link i {
+    font-size: 1.5rem;
+  }
+}

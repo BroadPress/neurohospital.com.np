@@ -1,0 +1,107 @@
+.service-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(209, 213, 219, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  transition: 3s ease-in-out;
+}
+.service-overlay-div {
+  position: relative;
+  width: 70%;
+  height: 550px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service-overlay-image {
+  height: 85%;
+  width: 85%;
+}
+.service-close-button {
+  position: absolute;
+  top: -10px;
+  right: -15px;
+  padding: 10px 20px;
+  background-color: rgb(157, 5, 5);
+  color: white;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.service-close-button:hover {
+  background-color: rgb(157, 5, 5);
+  color: rgb(0, 0, 0);
+}
+.services {
+  width: 1110px;
+  margin: auto;
+}
+.services div i {
+  font-style: normal;
+  color: rgb(250, 122, 3);
+}
+.services-sec-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.services-sec-2 div {
+  width: 48%;
+}
+.service-pic {
+  margin: 2rem 0;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+}
+.service-pic img {
+  width: 65%;
+  height: 100%;
+}
+.service-ol-li::marker {
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .service-overlay-div {
+    position: relative;
+    height: 40%;
+    width: 90%;
+    /* border: 2px solid black; */
+  }
+  .overlay-image {
+    width: 80%;
+  }
+  .services {
+    width: 90%;
+    margin: auto;
+  }
+  .services-sec-2 div {
+    width: 100%;
+  }
+ 
+  .service-pic {
+    width: 100%;
+    margin: auto;
+    height: auto;
+  }
+  .service img {
+    width: 100%;
+    height: auto;
+  }
+  .service-pic img {
+    width:100%;
+  }
+}

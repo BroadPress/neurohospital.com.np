@@ -1,0 +1,136 @@
+.doctor {
+  background-color: #f8f9fb;
+}
+.dct-sec-1 {
+  /* background-color: #fff; */
+  /* border:2px solid black; */
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.dct-sec-1-div {
+  width: 1110px;
+  height: 85%;
+  /* border:2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.dcts1-1 {
+  background-color: #fff;
+  width: 48%;
+  border-radius: 10px;
+  border: 1px solid #f0efef;
+}
+.dcts1-1 img {
+  width: 95%;
+  height: 77%;
+  transition: transform 0.2s ease-in-out;
+}
+.dcts1-1:hover img {
+  transform: scale(0.95);
+}
+.dcts-1-p1 {
+  color: #999;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.dcts-1-p2 {
+  font-size: 16px;
+}
+.dcts-btn {
+  background-color: #2c52a0 !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  margin: 1.2rem !important;
+}
+.dcts-btn:hover {
+  background-color: #17a2b8 !important;
+  color: #fff !important;
+}
+.dct-sec-2 {
+  width: 100%;
+  /* border:2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dct-sec-2-1 {
+  width: 1110px;
+  margin: auto;
+}
+.ul-doc {
+  /* border:2px solid rgb(245, 45, 9); */
+  width:1110px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ul-doc1 {
+  /* border:2px solid rgb(245, 45, 9); */
+  width:1110px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.li-doc {
+  background-color: #fff;
+  width: 32%;
+  height: 30rem;
+  margin: 0.6rem 0;
+  border: 1px solid #f0efef;
+  border-radius: 10px;
+}
+.li-doc1 {
+  background-color: #fff;
+  width: 32%;
+  height: 30rem;
+  margin: 0.6rem 1.5rem 1rem 0 ;
+  border: 1px solid #f0efef;
+  border-radius: 10px;
+}
+.li-doc-1 img {
+  transition: transform 0.2s ease-in-out;
+  height: 70%;
+  width: 90%;
+}
+.li-doc:hover img {
+  transform: scale(0.9);
+}
+.li-doc1:hover img {
+  transform: scale(0.9);
+}
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .dcts-1-p1 {
+    font-size: 1.4rem;
+  }
+  .dcts-1-p2 {
+    font-size: 1.2rem;
+  }
+  .dcts-btn {
+    font-size: 1.15rem !important;
+  }
+  .dct-sec-1 {
+    height: auto;
+  }
+  .dct-sec-1-div{
+    height: auto;
+  }
+  .dcts1-1 {
+    width: 100%;
+    margin: 0 auto 1rem auto;
+    height: auto;
+  }
+  .dcts1-1 img{
+    height: auto;
+  }
+  .ul-doc,.ul-doc1{
+    width: auto;
+    height: auto;
+  }
+  .li-doc,.li-doc1 {
+    height: auto;
+    margin: 0 auto 1rem auto;
+    width: 99%;
+  }
+}
