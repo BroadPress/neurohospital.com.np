@@ -1,5 +1,5 @@
 import React from "react";
-import "@/public/assets/css/blogs.css";
+import '@/public/css/blogs.css'
 
 const DandruffDemystified = () => {
   return (
@@ -9,7 +9,7 @@ const DandruffDemystified = () => {
           {/* Blog Image */}
           <div className="blog-pic">
             <img
-              src="/assets/images/blog/blog-26.jpg"
+              src="/blog/blog-26.jpg"
               alt="Dandruff Blog"
               className="shadow"
             />

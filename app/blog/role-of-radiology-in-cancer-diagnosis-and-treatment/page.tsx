@@ -1,5 +1,5 @@
 import React from "react";
-import '@/public/assets/css/blogs.css'
+import '@/public/css/blogs.css'
 
 const RORICDAT = () => {
 
@@ -9,7 +9,7 @@ const RORICDAT = () => {
         <div className="blogs-div">
           <div className="blog-pic">
           <img
-            src="/assets/images/blog/blog-1.png"
+            src="/blog/blog-1.png"
             alt="blogs-image-1"
             className="shadow"
           />

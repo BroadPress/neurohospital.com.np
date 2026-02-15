@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 import Breadcrumb from "../../components/Breadcrumb";
-import '@/public/assets/css/privacy-policy.css'
+import '@/public/css/privacy-policy.css'
 
 const PrivacyPolicy = () => {
 

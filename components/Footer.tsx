@@ -1,8 +1,10 @@
 'use client'
 import Link from "next/link";
 import React from "react";
-import '../public/assets/css/footer.css'
+import '@/public/css/footer.css'
 const Footer = () => {
+  const year = new Date();
+  const currentYear = year.getFullYear();
   return (
     <>
       <footer className="py-1 ">
@@ -11,7 +13,7 @@ const Footer = () => {
             <div className="cols col-md-3 col-sm-12 col-xs-12">
               <Link href="">
                 <img
-                  src="/assets/images/footer-logo.png"
+                  src="./footer-logo.png"
                   alt="footer-logo"
                   className="footer-logo"
                 />
@@ -98,14 +100,14 @@ const Footer = () => {
         <div className="footer-last text-center">
           <div>
             <div className="container">
-              Copyright &copy; 2000 - {" "}2025{" "}
+              Copyright &copy; 2000 - {" "}{currentYear}{" "}
               <b className="text-dark">
                 Neuro Cardio & Multispeciality Hospital Pvt. Ltd.
               </b>{" "}
               All Rights Reserved.
             </div>
             <div className="f-l-cnt text-center ">
-              Site Managed By : <Link className="text-decoration-none text-dark" href="https://wa.me/97798520225735?text=Hi%2C%20I%27m%20contacting%20you%20through%20www.neurohospital.com.np.%20" target="_blank">PRACAS UPRETI</Link>
+              Built with : <Link className="text-decoration-none text-dark font-semibold text-gray-400 hover:border-b" href="https://broadpress.org" target="_blank">BroadPress</Link>
             </div>
           </div>
         </div>

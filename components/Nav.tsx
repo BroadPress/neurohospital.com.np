@@ -2,7 +2,8 @@
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import React, { useState } from "react";
-import '@/public/assets/css/nav.css'
+import '@/public/css/nav.css'
+
 const Nav = () => {
   const [showAbout, setShowAbout] = useState(false);
   const [showDept, setShowDept] = useState(false);
@@ -21,23 +22,23 @@ const Nav = () => {
   return (
     <>
       <div className="nav-2">
-        <div className="nav-2-content d-flex justify-content-between">
+        <div className="nav-2-content d-flex justify-content-between pt-2">
           <div>
             <Link  href='/'>
               <img
-                src="/assets/images/header-logo.png"
+                src="./header-logo.png"
                 alt="header-logo"
                 className="header-logo"
               />
             </Link >
           </div>
-          <div className="nav-2-second">
+          <div className="nav-2-second pt-1">
             <Link  href='/' className="nav-links">
               Home
             </Link >
 
             <div
-              className="dropdown-container"
+              className="dropdown-container "
               onMouseEnter={() => setShowAbout(true)}
               onMouseLeave={() => setShowAbout(false)}
             >
@@ -45,6 +46,7 @@ const Nav = () => {
                 About&nbsp;<i className="fa-solid fa-caret-down"></i>
               </Link >
               {showAbout && (
+                <div className="mt-2 pt-1">
                 <div className="dropdown-content">
                   <div className="About-content">
                     <Link href='/about'>About Us</Link>
@@ -53,6 +55,7 @@ const Nav = () => {
                       Partners Organization
                     </Link>
                   </div>
+                </div>
                 </div>
               )}
             </div>
@@ -66,7 +69,7 @@ const Nav = () => {
             >
               <Link 
                 href='/departments'
-                className="nav-links"
+                className="nav-links "
               >
                Departments&nbsp;<i className="fa-solid fa-caret-down"></i> 
               </Link >

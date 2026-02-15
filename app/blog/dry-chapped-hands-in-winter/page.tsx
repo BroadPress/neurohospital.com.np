@@ -1,5 +1,5 @@
 import React from "react";
-import '@/public/assets/css/blogs.css'
+import '@/public/css/blogs.css'
 
 const DCHIW = () => {
 
@@ -9,7 +9,7 @@ const DCHIW = () => {
         <div className="blogs-div">
           <div className="blog-pic">
             <img
-              src="/assets/images/blog/blog-15.webp"
+              src="/blog/blog-15.webp"
               alt="blogs-image-15"
               className="shadow"
             />
@@ -67,7 +67,7 @@ const DCHIW = () => {
           <br />
           <div className="blog-pic">
             <img
-              src="/assets/images/blog/dghid.webp"
+              src="/blog/dghid.webp"
               alt="blogs-image-15-1"
               className="shadow"
             />

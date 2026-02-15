@@ -1,5 +1,5 @@
 import React from "react";
-import '@/public/assets/css/blogs.css'
+import '@/public/css/blogs.css'
 
 const THTOO = () => {
  
@@ -9,7 +9,7 @@ const THTOO = () => {
         <div className="blogs-div">
           <div className="blog-pic">
             <img
-              src="/assets/images/blog/blog-21.webp"
+              src="/blog/blog-21.webp"
               alt="blogs-image-21"
               className="shadow"
             />
@@ -64,7 +64,7 @@ const THTOO = () => {
           <br />
           <div className="blog-pic">
             <img
-              src="/assets/images/blog/thoo.webp"
+              src="/blog/thoo.webp"
               alt="blogs-image-21"
               className="shadow"
             />

@@ -47,7 +47,7 @@
   transition: opacity 2s ,transform 2s ease-in-out;
 }
 .home-bg {
-  background-image: url(/assets/images/homepage/2.jpg);
+  background-image: url("../homepage/2.jpg");
   max-width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -395,7 +395,7 @@
   height: 650px;
 }
 .sec-4-col1 {
-  background-image: url(/assets/images/homepage/sec-4-img.jpg);
+  background-image: url("../homepage/sec-4-img.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -679,7 +679,7 @@
 .section-7 {
   width:100%;
   margin: auto;
-  background-image: url("/assets/images/homepage/banner-7.jpg");
+  background-image: url("../homepage/banner-7.jpg");
   height: 500px;
   /* border: 2px solid red; */
   background-repeat: no-repeat;
@@ -1033,7 +1033,7 @@
   .sec-4-col3 {
     display: block;
     height: 350px;
-    background-image: url(/assets/images/homepage/sec-4-img.jpg);
+    background-image: url("../homepage/sec-4-img.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

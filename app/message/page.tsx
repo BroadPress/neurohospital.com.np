@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Breadcrumb from "../../components/Breadcrumb";
 import Link from "next/link";
-import '@/public/assets/css/message.css'
+import '@/public/css/message.css'
 const Message = () => {
   const name1 = "Message";
   const name2 = "Message";
@@ -110,7 +110,7 @@ const Message = () => {
             ref={sec1Ref}
             className={`m-sec1-div1 ${isSec1Visible ? "show" : ""}`}
           >
-            <img src="/assets/images/message/msg1.png" alt="msg-1" />
+            <img src="/message/msg1.png" alt="msg-1" />
           </div>
           <div
             ref={sec2Ref}
@@ -140,7 +140,6 @@ const Message = () => {
                 rajesh@neurohospital.com.np
               </Link>
             </div>
-            <Link href="" className="msd2-btn btn mt-3">Browse More</Link>
           </div>
         </div>
       </div>
@@ -150,7 +149,7 @@ const Message = () => {
             ref={sec3Ref}
             className={`m-sec2-div1 ${isSec3Visible ? "show" : ""}`}
           >
-            <img src="/assets/images/message/msg2.png" alt="msg-2" />
+            <img src="/message/msg2.png" alt="msg-2" />
           </div>
           <div
             ref={sec4Ref}
@@ -196,13 +195,11 @@ const Message = () => {
             <div className=" mt-3 mb-3">
               Dr. Navin Kumar Karna | Academic Director
             </div>
-            <div className="ms2d2-p4 mb-3">
-            <i className="fa-solid fa-stethoscope"></i> &nbsp;
+            <div className="ms2d2-p4 mb-3 ">
               <Link href="mailto:drkarna@neurohospital.com.np">
                 drkarna@neurohospital.com.np
               </Link>
             </div>
-            <Link href="" className="msd2-btn btn mt-4">Browse More</Link>
           </div>
         </div>
       </div>
@@ -212,7 +209,7 @@ const Message = () => {
             ref={sec5Ref}
             className={`m-sec3-div1 ${isSec5Visible ? "show" : ""}`}
           >
-            <img src="/assets/images/message/msg4.png" alt="msg-4" />
+            <img src="/message/msg4.png" alt="msg-4" />
           </div>
           <div
             ref={sec6Ref}
@@ -252,13 +249,11 @@ const Message = () => {
               MBBS MD (Internal Medicine), Fellowship EBM and Infectious
               Disease, Fellowship Rheumatology & Clinical Immunology
             </div>
-            <div className="ms2d2-p4 ">
-            <i className="fa-solid fa-stethoscope"></i> &nbsp;
+            <div className="ms2d2-p4 mb-3">
               <Link href="mailto:drkattel@neurohospital.com.np">
-                drkattel@neurohospital.com.np
+               drkattel@neurohospital.com.np
               </Link>
             </div>
-            <Link href="" className="msd2-btn btn mt-4">Browse More</Link>
           </div>
         </div>
       </div>

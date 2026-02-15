@@ -2,7 +2,7 @@
 import React from "react";
 import Breadcrumb from "../../components/Breadcrumb";
 import Link from "next/link";
-import '@/public/assets/css/academics.css'
+import '@/public/css/academics.css'
 const Academics = () => {
 
   const name1 = "Academics";
@@ -12,7 +12,7 @@ const Academics = () => {
       <div className="A-sec">
         <div className="A-sec-1 mb-3">
           <div className="A-sec-1-div1">
-            <img src="/assets/images/acdemics/a1.jpg" alt="a1" />
+            <img src="/acdemics/a1.jpg" alt="a1" />
           </div>
           <div className="A-sec-1-div2" style={{ textAlign: 'justify' }}>
             <p >
@@ -58,13 +58,13 @@ const Academics = () => {
               </div>
             </div>
             <div className="A-sec2-col2">
-              <img src="/assets/images/acdemics/a2.png" alt="a2" />
+              <img src="/acdemics/a2.png" alt="a2" />
             </div>
           </div>
         </div>
         <div className="A-sec-3 ">
           <div className="A-sec3-col1">
-            <img src="/assets/images/acdemics/a3.png" alt="a3" />
+            <img src="/acdemics/a3.png" alt="a3" />
           </div>
           <div className="A-sec3-col2">
             <p className="As-p3 text-dark mb-2">Cardiology</p>
@@ -76,7 +76,7 @@ const Academics = () => {
             </p>
           </div>
           <div className="A-sec3-col1-c">
-            <img src="/assets/images/acdemics/a3.png" alt="a3" />
+            <img src="/acdemics/a3.png" alt="a3" />
           </div>
         </div>
         <div className="A-sec-4">
@@ -92,12 +92,12 @@ const Academics = () => {
             </p>
           </div>
           <div className="A-sec4-col2">
-            <img src="/assets/images/acdemics/a4.png" alt="a5" />
+            <img src="/acdemics/a4.png" alt="a5" />
           </div>
         </div>
         <div className="A-sec-3 d-flex">
           <div className="A-sec3-col1">
-            <img src="/assets/images/acdemics/a5.png" alt="a3" />
+            <img src="/acdemics/a5.png" alt="a3" />
           </div>
           <div className="A-sec3-col2">
             <p className="As-p3  text-dark mb-2">Orthopedic Surgery</p>
@@ -111,7 +111,7 @@ const Academics = () => {
             </p>
           </div>
           <div className="A-sec3-col1-c">
-            <img src="/assets/images/acdemics/a5.png" alt="a3" />
+            <img src="/acdemics/a5.png" alt="a3" />
           </div>
         </div>
         <div className="A-sec-2">
@@ -128,7 +128,7 @@ const Academics = () => {
               </p>
             </div>
             <div className="A-sec2-col2">
-              <img src="/assets/images/acdemics/a6.png" alt="a2" />
+              <img src="/acdemics/a6.png" alt="a2" />
             </div>
           </div>
         </div>
@@ -148,7 +148,7 @@ const Academics = () => {
         </div>
         <div className="A-sec-3 d-flex">
           <div className="A-sec3-col1">
-            <img src="/assets/images/acdemics/a7.png" alt="a3" />
+            <img src="/acdemics/a7.png" alt="a3" />
           </div>
           <div className="A-sec3-col2">
             <p className="As-p3  text-dark mb-2">PCL Nursing</p>
@@ -161,7 +161,7 @@ const Academics = () => {
             </p>
           </div>
           <div className="A-sec3-col1-c">
-            <img src="/assets/images/acdemics/a7.png" alt="a3" />
+            <img src="/acdemics/a7.png" alt="a3" />
           </div>
         </div>
         <div className="A-sec-2">
@@ -178,7 +178,7 @@ const Academics = () => {
               </p>
             </div>
             <div className="A-sec2-col2">
-              <img src="/assets/images/acdemics/a8.png" alt="a2" />
+              <img src="/acdemics/a8.png" alt="a2" />
             </div>
           </div>
         </div>

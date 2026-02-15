@@ -5,7 +5,7 @@ import DpSectiion1 from "../../components/DpSectiion1";
 import Dpsection2 from "../../components/Dpsection2";
 import Dpsection from "../../components/Dpsection";
 import Dpsec4 from "../../components/Dpsec4";
-import '@/public/assets/css/department.css'
+import '@/public/css/department.css'
 
 const Department = () => {
   const name1 = "Our Departments";
@@ -17,7 +17,7 @@ const Department = () => {
       <div className="dep-sec1">
         <div className="dsec1">
           <div className="ds1-1">
-            <img src="/assets/images/department/dept1.jpg" alt="" className="w-100 h-100" />
+            <img src="/department/dept1.jpg" alt="" className="w-100 h-100" />
           </div>
           <div className="ds1-2">
             <div >

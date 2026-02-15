@@ -7,7 +7,6 @@ import Footer from "@/components/Footer";
 import Nav from "@/components/Nav";
 import Float from "@/components/Float";
 import RoadBlock from "@/components/RoadBlock";
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -54,9 +53,9 @@ export default function RootLayout({
         />
 
         {/* Custom CSS from /public */}
-        <link rel="stylesheet" href="/assets/css/home.css" />
-        <link rel="stylesheet" href="/assets/css/header.css" />
-        <link rel="stylesheet" href="/assets/css/footer.css" />
+        <link rel="stylesheet" href="./css/home.css" />
+        <link rel="stylesheet" href="./css/header.css" />
+        <link rel="stylesheet" href="./css/footer.css" />
       </head>
 
       <body

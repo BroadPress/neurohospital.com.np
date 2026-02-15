@@ -1,5 +1,5 @@
 import React  from "react";
-import '@/public/assets/css/blogs.css'
+import '@/public/css/blogs.css'
 
 const DMAH = () => {
 
@@ -9,7 +9,7 @@ const DMAH = () => {
         <div className="blogs-div">
           <div className="blog-pic">
             <img
-              src="/assets/images/blog/blog-14.png"
+              src="/blog/blog-14.png"
               alt="blogs-image-1"
               className="shadow"
             />

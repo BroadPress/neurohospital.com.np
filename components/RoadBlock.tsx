@@ -47,7 +47,6 @@ const RoadBlock = () => {
     };
   }, [showRoadBlock]);
 
-  /* ------------------ Force close after 20s ------------------ */
   useEffect(() => {
     if (!showRoadBlock) return;
 
@@ -64,7 +63,6 @@ const RoadBlock = () => {
     return () => clearInterval(timer);
   }, [onClose, showRoadBlock]);
 
-  /* ------------------ Enable close button after 5s ------------------ */
   useEffect(() => {
     if (!showRoadBlock) return;
 
@@ -75,24 +73,22 @@ const RoadBlock = () => {
     return () => clearInterval(timer);
   }, [showRoadBlock]);
 
-  /* ------------------ Image error handler ------------------ */
   const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>) => {
     const img = e.currentTarget;
     img.onerror = null;
 
     if (!img.src.includes("default")) {
-      img.src = "/roadblock/default/keep-city-clean.jpg";
+      img.src = "/roadblock/default/default.jpg";
     } else {
       onClose();
     }
   };
 
-  /* ------------------ Render ------------------ */
   if (!showRoadBlock) return null;
 
   return (
-    <div className="fixed h-screen z-999 bg-[#D0D0D0] flex items-center justify-center">
-      <div className="relative w-[550px] h-[550px] max-w-[90vw] max-h-[90vh]">
+    <div className="fixed h-screen z-999 bg-[#D0D0D0] flex items-center justify-center ">
+      <div className="relative w-137.5 h-137.5 max-w-[90vw] max-h-[90vh] flex flex-col justify-center items-center">
 
         {/* Close button */}
         <div className="absolute w-full justify-end flex top-8">

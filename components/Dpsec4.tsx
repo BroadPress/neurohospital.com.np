@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect, useRef, useState } from "react";
-import '@/public/assets/css/department.css'
+import '@/public/css/department.css'
 
 const Dpsec4 = () => {
   const sec2Ref = useRef(null);

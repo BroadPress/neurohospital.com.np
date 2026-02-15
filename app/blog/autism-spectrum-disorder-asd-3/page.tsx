@@ -1,5 +1,5 @@
 import React from "react";
-import '@/public/assets/css/blogs.css'
+import '@/public/css/blogs.css'
 const ASD = () => {
    
   return (
@@ -8,7 +8,7 @@ const ASD = () => {
         <div className="blogs-div">
           <div className="blog-pic">
             <img
-              src="/assets/images/blog/asd.jpg"
+              src="/blog/asd.jpg"
               alt="Migraine-headache"
               className="shadow"
             />
@@ -54,7 +54,7 @@ const ASD = () => {
             </div>
             <div className="blog-pic mt-3">
               <img
-                src="/assets/images/blog/asd1.jpg"
+                src="/blog/asd1.jpg"
                 alt="Migraine-headache"
                 className="shadow"
               />
@@ -91,7 +91,7 @@ const ASD = () => {
             <br />
             <div className="blog-pic">
               <img
-                src="/assets/images/blog/asd2.jpg"
+                src="/blog/asd2.jpg"
                 alt="Migraine-headache"
                 className="shadow"
               />
@@ -211,7 +211,7 @@ const ASD = () => {
             <br />
             <div className="blog-pic">
               <img
-                src="/assets/images/blog/asd3.jpg"
+                src="/blog/asd3.jpg"
                 alt="Migraine-headache"
                 className="shadow"
               />

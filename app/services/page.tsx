@@ -2,13 +2,40 @@
 import React, { useEffect, useState } from "react";
 import Breadcrumb from "../../components/Breadcrumb";
 import Link from "next/link";
-import '@/public/assets/css/services.css'
+import '@/public/css/services.css'
 
 const Services = () => {
   const name = "Our Services";
-
+    const [homePic, showHomePic] = useState(true);
+    const close = () => {
+      showHomePic(false);
+    };
+    useEffect(() => {
+      if (homePic) {
+        const timer = setTimeout(() => {
+          showHomePic(false);
+        }, 7000);
+  
+        return () => clearTimeout(timer);
+      }
+    }, [homePic]);
+    
   return (
     <>
+      {homePic && (
+        <div className="service-overlay">
+          <div className="service-overlay-div">
+            <img
+              src="./services/pop_up.jpg"
+              alt="Home"
+              className="service-overlay-image"
+            />
+            <button className="service-close-button" onClick={close}>
+              ✕
+            </button>
+          </div>
+        </div>
+      )}
       <Breadcrumb name1={name} name2={name} />
       <div className="services">
         <div className="services-sec-1 my-3" style={{ textAlign: "justify" }}>
@@ -31,7 +58,7 @@ const Services = () => {
               </p>
               <div className="service-pic">
                 <img
-                  src="/assets/images/services/2.jpg"
+                  src="./services/2.jpg"
                   alt="services-img-1"
                   className="shadow "
                 />
@@ -107,7 +134,7 @@ const Services = () => {
               </p>
               <div className="service-pic">
                 <img
-                  src="/assets/images/services/3.jpg"
+                  src="./services/3.jpg"
                   alt="services-img-2"
                   className="shadow "
                 />
@@ -163,7 +190,7 @@ const Services = () => {
           </p>
           <div className="service-pic">
             <img
-              src="/assets/images/services/4.jpg"
+              src="./services/4.jpg"
               alt="services-img-2"
               className="shadow "
             />
@@ -196,7 +223,7 @@ const Services = () => {
           </p>
           <div className="service-pic">
             <img
-              src="/assets/images/services/1.jpg"
+              src="./services/1.jpg"
               alt="services-img-4"
               className="shadow "
             />
@@ -236,7 +263,7 @@ const Services = () => {
           </p>
           <div className="service-pic">
             <img
-              src="/assets/images/services/6.jpg"
+              src="./services/6.jpg"
               alt="services-img-6"
               className="shadow "
             />
@@ -275,7 +302,7 @@ const Services = () => {
           </p>
           <div className="service-pic">
             <img
-              src="/assets/images/services/pop_up.jpg"
+              src="./services/pop_up.jpg"
               alt="services-img-6"
               className="shadow "
             />

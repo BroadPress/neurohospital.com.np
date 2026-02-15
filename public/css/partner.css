@@ -1,12 +1,4 @@
-.Ptr {
-  width: 100%;
-  /* border: 2px solid brown; */
-  margin: 3rem 0 2rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
+
 .ptr-row {
   border-radius: 10px;
   background-color: white;
@@ -44,13 +36,13 @@
 }
 .ptr-p2 {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #2c52a0;
 }
 .ptr-p3 {
   font-size: 16px;
   color: #4b4b4b;
-  margin-bottom: 3rem;
+
 }
 .ptr-row-1 {
   border-radius: 10px;

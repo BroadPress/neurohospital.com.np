@@ -4,12 +4,12 @@ import Breadcrumb from "../../components/Breadcrumb";
 import Video from "../../components/Video";
 import AboutCpnt from "../../components/AboutCpnt";
 import Link from "next/link";
-import '@/public/assets/css/aboutus.css'
+import '@/public/css/aboutus.css'
 
 const About = () => {
   const name1 = "About Us";
   const name2 = "About Us";
-  const img = "/assets/images/aboutus/abu3.png";
+  const img = "./aboutus/abu3.png";
   const url = "https://www.youtube.com/watch?v=WYN_vQ-PdH4";
 
 
@@ -129,7 +129,7 @@ const About = () => {
       <div className="abu-sec1" style={{ textAlign: "justify" }}>
         <div className="ab-sec1-cnt ">
           <div className="ab-sec1-cnt-1">
-            <img src="/assets/images/aboutus/ab1.png" alt="ab1" />
+            <img src="./aboutus/ab1.png" alt="ab1" />
           </div>
           <div className="ab-sec1-cnt-2">
             <div className="ab-sec1-cnt-2-1">
@@ -204,7 +204,7 @@ const About = () => {
             </div>
           </div>
           <div className="abu-sec2-cnt2">
-            <img src="/assets/images/aboutus/abu2.jpg" alt="abu2" />
+            <img src="./aboutus/abu2.jpg" alt="abu2" />
           </div>
         </div>
       </div>
@@ -217,7 +217,7 @@ const About = () => {
         >
           <div className="abu-sec3-div1-1">
             <img
-              src="/assets/images/aboutus/cardiogram.png"
+              src="./aboutus/cardiogram.png"
               alt="cardiogram"
               className="flat-icon"
             />
@@ -226,7 +226,7 @@ const About = () => {
           </div>
           <div className="abu-sec3-div1-1">
             <img
-              src="/assets/images/aboutus/doctor.png"
+              src="./aboutus/doctor.png"
               alt="doctor"
               className="flat-icon"
             />
@@ -235,7 +235,7 @@ const About = () => {
           </div>
           <div className="abu-sec3-div1-1">
             <img
-              src="/assets/images/aboutus/bed.png"
+              src="./aboutus/bed.png"
               alt="bed"
               className="flat-icon"
             />
@@ -244,7 +244,7 @@ const About = () => {
           </div>
           <div className="abu-sec3-div1-1">
             <img
-              src="/assets/images/aboutus/location.png"
+              src="./aboutus/location.png"
               alt="location"
               className="flat-icon"
             />

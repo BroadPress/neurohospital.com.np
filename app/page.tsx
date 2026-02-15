@@ -6,11 +6,11 @@ import Sec8 from "../components/Sec8";
 import SectionSix from "../components/SectionSix";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import '../public/assets/css/home.css'
+import '@/public/css/home.css'
 import Header from "@/components/Header";
 const Home = () => {
-  const img = "/assets/images/homepage/video-img.jpg";
-  const url = "https://www.youtube.com/watch?v=TnBuYRP5hZo";
+  const img = "./homepage/video-img.jpg";
+  const url = "https:/www.youtube.com/watch?v=TnBuYRP5hZo";
 
   const router = useRouter();
   const load = (path:any) => {
@@ -126,7 +126,7 @@ const Home = () => {
   }, []);
   return (
     <>
-      <div className="home">
+      <div className="home bg-gray-50">
         <div className="home-first" style={{ textAlign: "justify" }}>
           <div className="home-bg ">
             <div
@@ -148,7 +148,7 @@ const Home = () => {
               </div>
               <div className="home-1-2">
                 <img
-                  src="/assets/images/homepage/logo.png"
+                  src="./homepage/logo.png"
                   alt="home-image"
                   className="mt-5 mb-1 w-full sm:w-208"
                 />
@@ -203,7 +203,7 @@ const Home = () => {
                     </p>
                     <Link
                       target="_blank"
-                      href="https://neuro.danphecare.com/"
+                      href="https:/neuro.danphecare.com/"
                       className="card-btn btn text-light mt-3"
                     >
                       Book an Appointment
@@ -214,7 +214,7 @@ const Home = () => {
                   <div className="hcard">
                     <p className="h5 mb-3">Emergency Cases</p>
                     <Link
-                      href="https://d.sriyog.com/neuro"
+                      href="https:/d.sriyog.com/neuro"
                       className="text-decoration-none text-light mt-3 mb-3"
                     >
                       <i className="fa-solid fa-phone-flip"></i>
@@ -225,7 +225,7 @@ const Home = () => {
                       and WhatsApp.
                     </p>
                     <Link
-                      href="https://d.sriyog.com/neuro"
+                      href="https:/d.sriyog.com/neuro"
                       className="card-btn btn text-light mt-3"
                     >
                       Call on WhatsApp
@@ -243,7 +243,7 @@ const Home = () => {
         >
           <div className="section-1-1div">
             <img
-              src="/assets/images/homepage/director.png"
+              src="./homepage/director.png"
               alt="director-image"
             />
           </div>
@@ -330,7 +330,7 @@ const Home = () => {
             </div>
             <div className="cols col-md-6 col-sm-12">
               <img
-                src="/assets/images/homepage/sec-3-1.png"
+                src="./homepage/sec-3-1.png"
                 alt=""
                 className="sec-3-img"
               />
@@ -372,7 +372,7 @@ const Home = () => {
                 <br />
                 <Link
                   target="_blank"
-                  href="https://neuro.danphecare.com/"
+                  href="https:/neuro.danphecare.com/"
                   className="sec-4-btn btn text-light"
                 >
                   Book an Appointment
@@ -410,7 +410,7 @@ const Home = () => {
         <div className="section-6 " style={{ textAlign: "justify" }}>
           <SectionSix />
         </div>
-        <div className="section-7">
+        <div className="section-7 ">
           <div
             ref={sec6Ref}
             className={`sec-7-div  ${isSec6Visible ? "show" : ""}`}
@@ -425,7 +425,7 @@ const Home = () => {
             </p>
             <Link
               target="_blank"
-              href="https://neuro.danphecare.com/"
+              href="https:/neuro.danphecare.com/"
               className="sec7-btn btn text-light"
             >
               Book an Appointment

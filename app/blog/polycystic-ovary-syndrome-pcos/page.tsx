@@ -1,5 +1,5 @@
 import React from "react";
-import '@/public/assets/css/blogs.css'
+import '@/public/css/blogs.css'
 
 const POSP = () => {
 
@@ -9,7 +9,7 @@ const POSP = () => {
         <div className="blogs-div">
           <div className="blog-pic">
             <img
-              src="/assets/images/blog/blog-19.webp"
+              src="/blog/blog-19.webp"
               alt="blogs-image-19"
               className="shadow"
             />

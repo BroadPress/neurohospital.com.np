@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect, useRef, useState } from "react";
 import Breadcrumb from "../../components/Breadcrumb";
-import '@/public/assets/css/testimonials.css'
+import '@/public/css/testimonials.css'
 const Testimonials = () => {
   const name1 = "Testimonials";
   const sec2Ref = useRef(null);
@@ -105,7 +105,7 @@ const Testimonials = () => {
       <div className="tl-sec  mb-3">
         <div className="tl-div mx-2 mt-4">
           <div ref={sec2Ref} className={`tl-col1 my-2 ${isVisible ? "show" : ""}`}>
-            <img src="/assets/images/testimonials/t1.jpg" alt="t1" />
+            <img src="/testimonials/t1.jpg" alt="t1" />
           </div>
           <div
             ref={sec3Ref}
@@ -139,7 +139,7 @@ const Testimonials = () => {
             ref={sec4Ref}
             className={`tl2-col1 my-2 ${isSec4Visible ? "show" : ""}`}
           >
-            <img src="/assets/images/testimonials/t2.jpg" className="my-2" alt="t1" />
+            <img src="/testimonials/t2.jpg" className="my-2" alt="t1" />
           </div>
           <div
             ref={sec5Ref}
@@ -173,7 +173,7 @@ const Testimonials = () => {
             ref={sec6Ref}
             className={`tl3-col1 ${isSec6Visible ? "show" : ""}`}
           >
-            <img src="/assets/images/testimonials/t3.jpg" className="mb-2" alt="t1" />
+            <img src="/testimonials/t3.jpg" className="mb-2" alt="t1" />
           </div>
           <div
             ref={sec7Ref}

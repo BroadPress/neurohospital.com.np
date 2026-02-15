@@ -1,5 +1,5 @@
 import React from "react";
-import '@/public/assets/css/blogs.css'
+import '@/public/css/blogs.css'
 
 const IdiopathicInsomia = () => {
   return (
@@ -8,7 +8,7 @@ const IdiopathicInsomia = () => {
         <div className="blogs-div">
           <div className="blog-pic">
             <img
-              src="/assets/images/blog/blog-17.png"
+              src="/blog/blog-17.png"
               alt="blogs-image-17"
               className="shadow"
             />
