@@ -2,7 +2,7 @@
 import React from "react";
 import Breadcrumb from "../../components/Breadcrumb";
 import Link from "next/link";
-import '@/public/assets/css/career.css'
+import '@/public/css/career.css'
 
 const Career = () => {
   const name = "Careers";

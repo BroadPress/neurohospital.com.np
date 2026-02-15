@@ -1,5 +1,5 @@
 import React from "react";
-import '@/public/assets/css/blogs.css'
+import '@/public/css/blogs.css'
 
 const VCH = () => {
 
@@ -8,7 +8,7 @@ const VCH = () => {
       <div className="blogs">
         <div className="blogs-div">
           <div className="blog-pic"> <img
-            src="/assets/images/blog/blog-3.png"
+            src="/blog/blog-3.png"
             alt="blogs-image-1"
             className="shadow"
           /></div>

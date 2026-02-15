@@ -2,7 +2,7 @@ import React from "react";
 import Breadcrumb from "../../components/Breadcrumb";
 import DtSection from "../../components/DtSection";
 import Link from "next/link";
-import '@/public/assets/css/doctor.css'
+import '@/public/css/doctor.css'
 const Doctor = () => {
 
   const name1 = "Meet the Doctors";
@@ -15,13 +15,13 @@ const Doctor = () => {
       <div className="dct-sec-1">
         <div className="dct-sec-1-div">
           <div className="dcts1-1 text-center">
-            <img loading="lazy" src={"/assets/images/doctors/dc1.png"} alt="dc1" />
+            <img loading="lazy" src={"/doctors/dc1.png"} alt="dc1" />
             <div className="dcts-1-p1">Dr. Birendra Kumar Bista</div>
             <div className="dcts-1-p2">Senior Consultant Neurologist</div>
             <p className="dcts-btn btn">NMC # : 1636</p>
           </div>
           <div className="dcts1-1 text-center">
-            <img loading="lazy" src={"/assets/images/doctors/dc2.png"} alt="dc1" />
+            <img loading="lazy" src={"/doctors/dc2.png"} alt="dc1" />
             <div className="dcts-1-p1">Prof. Dr. Navin Kumar Karna</div>
             <div className="dcts-1-p2">
               Senior Consultant Orthopedic Surgeon

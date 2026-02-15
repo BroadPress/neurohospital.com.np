@@ -1,5 +1,5 @@
 import React from "react";
-import '@/public/assets/css/blogs.css'
+import '@/public/css/blogs.css'
 
 const BTFAS = () => {
 
@@ -9,7 +9,7 @@ const BTFAS = () => {
         <div className="blogs-div">
           <div className="blog-pic">
           <img
-            src="/assets/images/blog/blog-12.png"
+            src="/blog/blog-12.png"
             alt="blogs-image-1"
             className="shadow"
           />

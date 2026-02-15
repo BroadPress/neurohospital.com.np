@@ -1,17 +1,13 @@
 import { useRouter } from "next/navigation";
 import React from "react";
-import '../public/assets/css/blogs.css'
+import '@/public/css/blogs.css'
+import Link from "next/link";
 
 const Sec8 = () => {
-  const router = useRouter();
-  function load(link:any) {
-    router.push(link);
-    window.location.reload();
-  }
   const List = [
     {
       id: 1,
-      pic: "/assets/images/homepage/sec-8-1.jpg",
+      pic: "./homepage/sec-8-1.jpg",
       name: "Dandruff Demystified",
       date: "8 February 2026",
       des: "Dandruff happens due to scalp imbalance, dryness, or fungal overgrowth, especially in winter. Proper shampoos and scalp care help keep it under control.",
@@ -19,7 +15,7 @@ const Sec8 = () => {
     },
     {
       id: 2,
-      pic: "/assets/images/homepage/sec-8-2.jpg",
+      pic: "./homepage/sec-8-2.jpg",
       name: "Migraine Headache",
       date: "01 Feburary 2024",
       des: "Migraine is a common disorder which causes a disabling headache usually associated with nausea / vomiting and/ or light and Sound sensitivity.",
@@ -27,7 +23,7 @@ const Sec8 = () => {
     },
     {
       id: 3,
-      pic: "/assets/images/homepage/sec-8-3.jpg",
+      pic: "./homepage/sec-8-3.jpg",
       name: "What is Anxiety?",
       date: "07 Feburary 2024",
       des: "Anxiety is a natural human emotion characterized by feelings of worry, nervousness, apprehension, and dread. It can manifest.",
@@ -40,9 +36,9 @@ const Sec8 = () => {
         {List.map((card) => (
           <div key={card.id} className="blogs-col cols col-md-4 col-sm-12">
             <div  className="blogs-col-div shadow ">
-              <img src={card.pic} alt={card.name} className="blogs-img" />
-              <p className="mx-3">
-                <span onClick={() => load(card.link)} className="blogs-card-p1">
+              <img src={card.pic} alt={card.name} className="blogs-pic" />
+              <p className="mx-3 mt-3">
+                <span className="blogs-card-p1">
                   {card.name}
                 </span>
               </p>
@@ -50,9 +46,9 @@ const Sec8 = () => {
               <p className="blog-date mx-3">Date posted : {card.date}</p>
               <p className="text-center">
                 
-                <span onClick={() => load(card.link)} className="blogs-btn btn">
+                <Link href={card.link} className="blogs-btn btn">
                   Read More
-                </span>
+                </Link>
               </p>
             </div>
           </div>

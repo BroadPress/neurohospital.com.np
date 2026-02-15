@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 import Breadcrumb from "../../components/Breadcrumb";
-import '@/public/assets/css/apply.css'
+import '@/public/css/apply.css'
 const Apply = () => {
   const name = "Apply Now";
 

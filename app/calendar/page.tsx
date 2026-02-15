@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect } from "react";
 import Breadcrumb from "../../components/Breadcrumb";
-import '@/public/assets/css/hospital-calender.css'
+import '@/public/css/hospital-calender.css'
 
 const HospitalCalender = () => {
   const [calendarDates, setCalendarDates] = useState([]);
@@ -88,7 +88,7 @@ const HospitalCalender = () => {
         <div className="d-flex flex-wrap">
           <div className="cdr-d1">
             <img
-              src="/assets/images/header-logo.png"
+              src="/header-logo.png"
               alt="header-logo"
               className="calender-logo"
             />

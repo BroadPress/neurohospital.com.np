@@ -1,34 +1,34 @@
 'use client'
 import React, {  useState } from "react";
 import Breadcrumb from "../../components/Breadcrumb";
-import '@/public/assets/css/gallery.css'
+import '@/public/css/gallery.css'
 const Gallery = () => {
 
   const name1 = "Our Gallery";
   const name2 = "Hospital Gallery";
   const list1 = [
-    { id: 1, pic: "/assets/images/gallery/g1.jpg" },
-    { id: 2, pic: "/assets/images/gallery/g2.jpg" },
-    { id: 3, pic: "/assets/images/gallery/g4.jpg" },
-    { id: 4, pic: "/assets/images/gallery/g5.jpg" },
-    { id: 5, pic: "/assets/images/gallery/g6.jpg" },
-    { id: 6, pic: "/assets/images/gallery/g8.jpg" },
-    { id: 7, pic: "/assets/images/gallery/g9.jpg" },
-    { id: 8, pic: "/assets/images/gallery/g10.jpg" },
-    { id: 9, pic: "/assets/images/gallery/g12.jpg" },
-    { id: 10, pic: "/assets/images/gallery/g13.jpg" },
-    { id: 11, pic: "/assets/images/gallery/g14.jpg" },
-    { id: 12, pic: "/assets/images/gallery/g15.jpg" },
-    { id: 13, pic: "/assets/images/gallery/g16.jpg" },
-    { id: 14, pic: "/assets/images/gallery/g17.jpg" },
-    { id: 15, pic: "/assets/images/gallery/g18.jpg" },
-    { id: 16, pic: "/assets/images/gallery/g19.jpg" },
+    { id: 1, pic: "/gallery/g1.jpg" },
+    { id: 2, pic: "/gallery/g2.jpg" },
+    { id: 3, pic: "/gallery/g4.jpg" },
+    { id: 4, pic: "/gallery/g5.jpg" },
+    { id: 5, pic: "/gallery/g6.jpg" },
+    { id: 6, pic: "/gallery/g8.jpg" },
+    { id: 7, pic: "/gallery/g9.jpg" },
+    { id: 8, pic: "/gallery/g10.jpg" },
+    { id: 9, pic: "/gallery/g12.jpg" },
+    { id: 10, pic: "/gallery/g13.jpg" },
+    { id: 11, pic: "/gallery/g14.jpg" },
+    { id: 12, pic: "/gallery/g15.jpg" },
+    { id: 13, pic: "/gallery/g16.jpg" },
+    { id: 14, pic: "/gallery/g17.jpg" },
+    { id: 15, pic: "/gallery/g18.jpg" },
+    { id: 16, pic: "/gallery/g19.jpg" },
   ];
   const list2 = [
-    { id: 17, pic: "/assets/images/gallery/g3.jpg" },
-    { id: 18, pic: "/assets/images/gallery/g7.jpg" },
-    { id: 19, pic: "/assets/images/gallery/g11.jpg" },
-    { id: 20, pic: "/assets/images/gallery/g20.jpg" },
+    { id: 17, pic: "/gallery/g3.jpg" },
+    { id: 18, pic: "/gallery/g7.jpg" },
+    { id: 19, pic: "/gallery/g11.jpg" },
+    { id: 20, pic: "/gallery/g20.jpg" },
   ];
 
   const images = [...list1, ...list2];

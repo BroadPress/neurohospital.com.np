@@ -7,8 +7,8 @@ const SectionSix = () => {
     {
       id: 1,
       name: "Neurology",
-      firstImg: "/assets/images/homepage/neurology1.png",
-      secondImg: "/assets/images/homepage/neurology.jpg",
+      firstImg: "./homepage/neurology1.png",
+      secondImg: "./homepage/neurology.jpg",
       description:
         "The branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. The neurologist treats disorders that affect the brain, spinal cord, and nerves, such as:",
       li1: "Cerebrovascular Disease",
@@ -21,8 +21,8 @@ const SectionSix = () => {
     {
       id: 2,
       name: "Cardiology",
-      firstImg: "/assets/images/homepage/cardiology1.png",
-      secondImg: "/assets/images/homepage/cardiology.jpg",
+      firstImg: "./homepage/cardiology1.png",
+      secondImg: "./homepage/cardiology.jpg",
       description:
         "Cardiologists provide the continuing care of patients with cardiovascular disease, performing basic studies of heart function and supervising all aspects of therapy, including the administration of drugs to modify heart functions.",
       li1: "Coronary Heart Disease",
@@ -35,8 +35,8 @@ const SectionSix = () => {
     {
       id: 3,
       name: "Neurosurgery",
-      firstImg: "/assets/images/homepage/neurosurgery1.png",
-      secondImg: "/assets/images/homepage/neurosugery.jpg",
+      firstImg: "./homepage/neurosurgery1.png",
+      secondImg: "./homepage/neurosugery.jpg",
       description:
         "It is the medical specialty concerned with the diagnosis and treatment of patients with injury to, or diseases/disorders of the brain, spinal cord and spinal column, and peripheral nerves within all parts of the body.",
       li1: "Epilepsy disorders",
@@ -49,8 +49,8 @@ const SectionSix = () => {
     {
       id: 4,
       name: "Orthopedic",
-      firstImg: "/assets/images/homepage/bone1.png",
-      secondImg: "/assets/images/homepage/orthopedic.jpg",
+      firstImg: "./homepage/bone1.png",
+      secondImg: "./homepage/orthopedic.jpg",
       description:
         "Orthopaedics is the medical specialty that focuses on injuries and diseases of your body's musculoskeletal system. This complex system, which includes your bones, joints, ligaments, tendons, muscles, and nerves, allows you to move, work, and be active.",
       li1: "Fever",

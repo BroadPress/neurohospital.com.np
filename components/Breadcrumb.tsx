@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link'
 import React from 'react'
-import '@/public/assets/css/breadcrumb.css'
+import '@/public/css/breadcrumb.css'
 const Breadcrumb = ({name1,name2}:any) => {
   return (
     <>

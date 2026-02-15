@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import '@/public/assets/css/float.css'
+import '@/public/css/float.css'
 const Float = () => {
   return (
     <div>

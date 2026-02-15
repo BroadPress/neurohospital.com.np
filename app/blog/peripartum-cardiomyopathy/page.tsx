@@ -1,5 +1,5 @@
 import React from "react";
-import '@/public/assets/css/blogs.css'
+import '@/public/css/blogs.css'
 
 const PeripartumCardiomyopathy = () => {
  
@@ -9,7 +9,7 @@ const PeripartumCardiomyopathy = () => {
         <div className="blogs-div">
           <div className="blog-pic">
             <img
-              src="/assets/images/blog/blog-18.webp"
+              src="/blog/blog-18.webp"
               alt="blogs-image-18"
               className="shadow"
             />
@@ -91,7 +91,7 @@ const PeripartumCardiomyopathy = () => {
           <br />
           <div className="blog-pic">
             <img
-              src="/assets/images/blog/pc-2.webp"
+              src="/blog/pc-2.webp"
               alt="blogs-image-15-1"
               className="shadow"
             />

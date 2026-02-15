@@ -1,5 +1,5 @@
 import React from "react";
-import '@/public/assets/css/blogs.css'
+import '@/public/css/blogs.css'
 const MigraineHeadache = () => {
 
   return (
@@ -8,7 +8,7 @@ const MigraineHeadache = () => {
         <div className="blogs-div">
           <div className="blog-pic">
             <img
-              src="/assets/images/blog/migrane-headache.jpg"
+              src="/blog/migrane-headache.jpg"
               alt="Migraine-headache"
               className="shadow"
             />

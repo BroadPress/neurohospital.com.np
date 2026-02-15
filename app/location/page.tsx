@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect, useRef, useState } from "react";
 import Breadcrumb from "../../components/Breadcrumb";
-import '@/public/assets/css/location-map.css'
+import '@/public/css/location-map.css'
 const LocationMap = () => {
   const name1 = "Locate Us";
   const sec1Ref = useRef(null);
@@ -37,9 +37,9 @@ const LocationMap = () => {
       </div>
       <div
         ref={sec1Ref}
-        className={`row2 text-center ${isSec1Visible ? "show" : ""}`}
+        className={`row2 ${isSec1Visible ? "show" : ""}`}
       >
-        <div data-wow-delay="0.2s">
+        <div data-wow-delay="0.2s" className="flex items-center justify-center">
           <div className="map-frame">
             <iframe
               className="map-i-frame"

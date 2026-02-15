@@ -1,5 +1,5 @@
 import React from "react";
-import '@/public/assets/css/blogs.css'
+import '@/public/css/blogs.css'
 
 const HTCAD = () => {
 
@@ -9,7 +9,7 @@ const HTCAD = () => {
         <div className="blogs-div">
           <div className="blog-pic">
             <img
-              src="/assets/images/blog/blog-16.webp"
+              src="/blog/blog-16.webp"
               alt="blogs-image-16"
               className="shadow"
             />
@@ -69,7 +69,7 @@ const HTCAD = () => {
           <br />
           <div className="blog-pic">
             <img
-              src="/assets/images/blog/htoca.webp"
+              src="/blog/htoca.webp"
               alt="blogs-image-15-1"
               className="shadow"
             />

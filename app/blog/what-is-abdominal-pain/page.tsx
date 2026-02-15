@@ -1,5 +1,5 @@
 import React from "react";
-import '@/public/assets/css/blogs.css'
+import '@/public/css/blogs.css'
 
 const WIAP = () => {
 
@@ -9,7 +9,7 @@ const WIAP = () => {
         <div className="blogs-div">
           <div className="blog-pic">
             <img
-              src="/assets/images/blog/blog-22.webp"
+              src="/blog/blog-22.webp"
               alt="blogs-image-22"
               className="shadow"
             />

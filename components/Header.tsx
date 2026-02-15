@@ -61,7 +61,7 @@ const Header = () => {
           </div>
           <div className="resp-nav1-div-div2" onClick={() => load("/")}>
             <div className="w-100">
-              <img src="/assets/images/header-logo.png" alt="header-logo" />
+              <img src="./header-logo.png" alt="header-logo" />
             </div>
           </div>
           <div className="resp-nav1-div-div3">

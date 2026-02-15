@@ -1,5 +1,5 @@
 import React from "react";
-import '@/public/assets/css/blogs.css'
+import '@/public/css/blogs.css'
 
 const WhatIsPhobia = () => {
   return (
@@ -8,7 +8,7 @@ const WhatIsPhobia = () => {
         <div className="blogs-div">
           <div className="blog-pic">
             <img
-              src="/assets/images/blog/phobia.png"
+              src="/blog/phobia.png"
               alt="blogs-image"
               className="shadow"
             />

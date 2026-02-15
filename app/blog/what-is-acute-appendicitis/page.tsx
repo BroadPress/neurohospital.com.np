@@ -1,5 +1,5 @@
 import React from "react";
-import '@/public/assets/css/blogs.css'
+import '@/public/css/blogs.css'
 
 const WIAA = () => {
  
@@ -9,7 +9,7 @@ const WIAA = () => {
         <div className="blogs-div">
           <div className="blog-pic">
             <img
-              src="/assets/images/blog/blog-23.png"
+              src="/blog/blog-23.png"
               alt="blogs-image-23"
               className="shadow"
             />

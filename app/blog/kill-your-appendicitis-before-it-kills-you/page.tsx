@@ -1,5 +1,5 @@
 import React from "react";
-import '@/public/assets/css/blogs.css'
+import '@/public/css/blogs.css'
 const KYABIKY = () => {
 
   return (
@@ -8,7 +8,7 @@ const KYABIKY = () => {
         <div className="blogs-div">
           <div className="blog-pic">
             <img
-              src="/assets/images/blog/blog-6.png"
+              src="/blog/blog-6.png"
               alt="blogs-image-1"
               className="shadow"
             />
