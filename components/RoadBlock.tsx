@@ -47,21 +47,6 @@ const RoadBlock = () => {
     };
   }, [showRoadBlock]);
 
-  useEffect(() => {
-    if (!showRoadBlock) return;
-
-    const timer = setInterval(() => {
-      setTimeLeft((prev) => {
-        if (prev <= 1) {
-          onClose();
-          return 0;
-        }
-        return prev - 1;
-      });
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, [onClose, showRoadBlock]);
 
   useEffect(() => {
     if (!showRoadBlock) return;

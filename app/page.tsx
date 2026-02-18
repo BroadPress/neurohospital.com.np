@@ -150,11 +150,11 @@ const Home = () => {
                 <img
                   src="./homepage/logo.png"
                   alt="home-image"
-                  className="mt-5 mb-1 w-full sm:w-208"
+                  className="my-5 w-full sm:w-208"
                 />
               </div>
             </div>
-            <div className="Home-rows mt-2">
+            <div className="Home-rows mt-5 sm:mt-2">
               <div className="home-row row">
                 <div className="col1 cols col-md-3 col-xs-12">
                   <div className="hcard">
