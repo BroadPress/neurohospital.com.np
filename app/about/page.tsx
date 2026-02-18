@@ -156,7 +156,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div ref={sec2Ref} className={` abu-sec2 ${isVisible ? "show" : ""}`}>
+      <div ref={sec2Ref} className={` abu-sec2 my-8 ${isVisible ? "show" : ""}`}>
         <div className="abu-sec2-cnt" >
           <div className="abu-sec2-cnt1 ">
             <div className="abu-s2ct-1div mx-2">
@@ -210,45 +210,53 @@ const About = () => {
       </div>
 
      
-      <div className="abu-sec3 my-2">
+      <div className="bg-blue-400 my-2">
         <div
           ref={sec3Ref}
-          className={`abu-sec3-div1 ${isSec3Visible ? "show" : ""}`}
+          className={`max-w-7xl mx-auto w-full place-content-center place-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 py-4 ${isSec3Visible ? "show" : ""}`}
         >
-          <div className="abu-sec3-div1-1">
+          <div className="flex flex-col justify-center">
+            <div className="flex items-center justify-center w-full sm:w-56">
             <img
               src="./aboutus/cardiogram.png"
               alt="cardiogram"
               className="flat-icon"
             />
-            <p className="abs3-p1 text-light h3 text-bold">{patients}</p>
-            <p className="abs3-p2">Plus Happy Patients</p>
+            </div>
+            <p className="abs3-p1 text-light text-center h3 text-bold py-2">{patients}</p>
+            <p className="abs3-p2 text-center">Plus Happy Patients</p>
           </div>
           <div className="abu-sec3-div1-1">
+            <div className="flex items-center justify-center w-full sm:w-56">
             <img
               src="./aboutus/doctor.png"
               alt="doctor"
               className="flat-icon"
             />
-            <p className="abs3-p1 text-light h3 text-bold">{doctors}</p>
+            </div>
+            <p className="abs3-p1 text-light h3 text-bold py-2">{doctors}</p>
             <p className="abs3-p2">Qualified Doctors</p>
           </div>
           <div className="abu-sec3-div1-1">
+            <div className="flex items-center justify-center w-full sm:w-56">
             <img
               src="./aboutus/bed.png"
               alt="bed"
               className="flat-icon"
             />
-            <p className="abs3-p1 text-light h3 text-bold">{beds}</p>
+            </div>
+            <p className="abs3-p1 text-light h3 text-bold py-2">{beds}</p>
             <p className="abs3-p2">Beds</p>
           </div>
           <div className="abu-sec3-div1-1">
+            <div className="flex items-center justify-center w-full sm:w-56">
             <img
               src="./aboutus/location.png"
               alt="location"
               className="flat-icon"
             />
-            <p className="abs3-p1 text-light h3 text-bold">{centers}</p>
+            </div>
+            <p className="abs3-p1 text-light h3 text-bold py-2">{centers}</p>
             <p className="abs3-p2">Referring Center</p>
           </div>
         </div>
@@ -279,7 +287,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="abu-sec5">
+      <div className="abu-sec5 py-4">
         <div className="abs5-cnt">
           <div
             ref={sec5Ref}

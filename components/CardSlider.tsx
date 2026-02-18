@@ -90,11 +90,13 @@ const CardSlider = () => {
           <SwiperSlide key={card.id}>       
             <div className="card slider-card">
               <div className=" slider-div">
+                <div className="flex items-center justify-center">
                 <img
                   src={card.img}
                   alt={card.name}
                   className="slider-card-img"
                 />
+                </div>
                 <h3 className="slider-card-h3">{card.name}</h3>
                 <p className="slider-card-p mx-2" style={{ textAlign: 'justify' }}>{card.description}</p>
               </div>

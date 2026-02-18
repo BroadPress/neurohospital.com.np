@@ -238,7 +238,7 @@ const DtSection = () => {
           <div key={item.id} className="li-doc">
             <div className="li-doc-1 text-center">
               <img loading="lazy" src={item.pic} alt="dc1" />
-              <div className="dcts-1-p1">{item.name}</div>
+              <div className="dcts-1-p1 mt-3">{item.name}</div>
               <div className="dcts-1-p2">{item.prof}</div>
               <Link href={item.link} className="dcts-btn btn">
                 {item.id}
