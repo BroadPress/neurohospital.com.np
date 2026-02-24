@@ -37,7 +37,7 @@ const Services = () => {
         </div>
       )}
       <Breadcrumb name1={name} name2={name} />
-      <div className="services">
+      <div className="services px-2">
         <div className="services-sec-1 my-3" style={{ textAlign: "justify" }}>
           Neuro Cardio & Multispeciality Hospital Biratnagar provides a{" "}
           <i> comprehensive range of healthcare services</i>, including{" "}
@@ -48,7 +48,7 @@ const Services = () => {
         <p className="h1 text-center m-3" style={{ color: "#2c52a0" }}>
           Services
         </p>
-        <ol >
+        <ol className="list-decimal">
           <li className="service-ol-li">
             <div className=" py-3">
               <p className=" h4 ">Diagnostic and Imaging Services</p>
@@ -65,7 +65,7 @@ const Services = () => {
               </div>
 
               <div className="mt-3">
-                <ul>
+                <ul className="mt-3 list-[circle] list-inside">
                   <li>
                     <i>DEXA Scan (Dual-Energy X-ray Absorptiometry) –</i>{" "}
                     Assesses bone mineral density (BMD) to diagnose osteoporosis
@@ -139,7 +139,7 @@ const Services = () => {
                   className="shadow "
                 />
               </div>
-              <ul className="mt-3">
+              <ul className="mt-3 list-[circle] list-inside">
                 <li>
                   <i>Modular OT Setup –</i> Modern operating theaters designed
                   to maintain a sterile environment for complex and high-risk
@@ -147,7 +147,7 @@ const Services = () => {
                 </li>
                 <li>
                   <i>Major Surgeries:</i>
-                  <ul>
+                  <ul className="list-[square] list-inside">
                     <li>
                       <i>Neurosurgery –</i> Brain and spinal cord procedures.
                     </li>
@@ -197,7 +197,7 @@ const Services = () => {
           </div>
 
           <div className="mt-3">
-            <ul>
+            <ul className="mt-3 list-[circle] list-inside">
               <li>
                 <i>24-Hour Emergency Services –</i> Trauma care, life-saving
                 treatments, and urgent consultations.
@@ -230,7 +230,7 @@ const Services = () => {
           </div>
 
           <div className="mt-3">
-            <ul>
+            <ul className="mt-3 list-[circle] list-inside">
               <li>
                 <i>Dialysis Services –</i> High-quality dialysis for renal
                 failure patients, managed by trained professionals.
@@ -241,7 +241,7 @@ const Services = () => {
               </li>
               <li>
                 <i>Super Deluxe & Deluxe Cabins –</i>
-                <ul>
+                <ul className="list-[square] list-inside">
                   <li>
                     <i>Super Deluxe Cabin –</i> A premium recovery room with
                     enhanced comfort, privacy, and personalized services.
@@ -271,7 +271,7 @@ const Services = () => {
 
           <div className="services-sec-2 ">
             <div className="mt-3 w-100">
-              <ul>
+              <ul className="list-[circle] list-inside">
                 <li>
                   <i>Outpatient Department (OPD) –</i> Consultations with expert
                   doctors across multiple specialties.
@@ -309,7 +309,7 @@ const Services = () => {
           </div>
 
           <div className="">
-            <ul className="mt-3">
+            <ul className="list-[circle] list-inside mt-3">
               <li>
                 <i>Free OPD & 25% Discount –</i> On designated days, enjoy free
                 OPD consultations and 25% off medical services.

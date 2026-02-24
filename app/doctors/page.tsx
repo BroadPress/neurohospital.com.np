@@ -16,13 +16,13 @@ const Doctor = () => {
         <div className="dct-sec-1-div">
           <div className="dcts1-1 text-center">
             <img loading="lazy" src={"/doctors/dc1.png"} alt="dc1" />
-            <div className="dcts-1-p1">Dr. Birendra Kumar Bista</div>
+            <div className="dcts-1-p1 mt-3">Dr. Birendra Kumar Bista</div>
             <div className="dcts-1-p2">Senior Consultant Neurologist</div>
             <p className="dcts-btn btn">NMC # : 1636</p>
           </div>
           <div className="dcts1-1 text-center">
             <img loading="lazy" src={"/doctors/dc2.png"} alt="dc1" />
-            <div className="dcts-1-p1">Prof. Dr. Navin Kumar Karna</div>
+            <div className="dcts-1-p1 mt-3">Prof. Dr. Navin Kumar Karna</div>
             <div className="dcts-1-p2">
               Senior Consultant Orthopedic Surgeon
             </div>
