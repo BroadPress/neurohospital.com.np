@@ -2,6 +2,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+Vercel Deployment : neurohospital@sriyog.com 
+https://vercel.com/neuro-hospitals-projects/neurohospital.com.np
+
 First, run the development server:
 
 ```bash
