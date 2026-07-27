@@ -1,5 +1,6 @@
 "use client";
 
+
 import { useEffect, useState, useCallback } from "react";
 
 const RoadBlock = () => {
@@ -32,13 +33,15 @@ const RoadBlock = () => {
   }, []);
 
  
-  useEffect(() => {
-    const hasSeen = sessionStorage.getItem("roadblock_seen");
-    if (!hasSeen) {
-      setShowRoadBlock(true);
-      sessionStorage.setItem("roadblock_seen", "true");
-    }
-  }, []);
+  // Roadblock banner has been disabled for now. You can enable it by uncommenting the following code in the `useEffect` hook below. This will show the roadblock only once per session.
+  // useEffect(() => {
+  //   const hasSeen = sessionStorage.getItem("roadblock_seen");
+  //   if (!hasSeen) {
+  //     setShowRoadBlock(true);
+  //     sessionStorage.setItem("roadblock_seen", "true");
+  //   }
+  // }, []);
+
 
   useEffect(() => {
     document.body.style.overflow = showRoadBlock ? "hidden" : "";
