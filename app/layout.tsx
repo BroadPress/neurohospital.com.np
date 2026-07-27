@@ -44,7 +44,7 @@ export default function RootLayout({
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Neuro Hospital" />
         <meta property="og:title" content="Neuro Hospital - Biratnagar | Hospital in Nepal" />
-        <meta property="og:description" content="Neuro Hospital is a leading multispecialty hospital in Biratnagar, Nepal, providing advanced neurological, cardiac, orthopedic, nephrology, pediatric, gynecology, and emergency healthcare services under one roof." />
+        <meta property="og:description" content="Neuro Hospital is a leading multispecialty hospital in Biratnagar, Nepal, providing advanced healthcare services under one roof." />
         <meta property="og:url" content="https://www.neurohospital.com.np/" />
         <meta property="og:image" content="https://www.neurohospital.com.np/og/default.jpg" />
         <meta property="og:image:secure_url" content="https://www.neurohospital.com.np/og/default.jpg" />
