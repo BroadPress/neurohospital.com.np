@@ -40,6 +40,25 @@ export default function RootLayout({
         <meta name="keywords" content="neuro hospital biratnagar nepal" />
         <meta name="robots" content="index, follow" />
 
+        {/* Open Graph Meta Tags */}
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Neuro Hospital" />
+        <meta property="og:title" content="Neuro Hospital - Biratnagar | Hospital in Nepal" />
+        <meta property="og:description" content="Neuro Hospital is a leading multispecialty hospital in Biratnagar, Nepal, providing advanced neurological, cardiac, orthopedic, nephrology, pediatric, gynecology, and emergency healthcare services under one roof." />
+        <meta property="og:url" content="https://www.neurohospital.com.np/" />
+        <meta property="og:image" content="https://www.neurohospital.com.np/og/default.jpg" />
+        <meta property="og:image:secure_url" content="https://www.neurohospital.com.np/og/default.jpg" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:locale" content="en_US" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Neuro Hospital - Biratnagar | Hospital in Nepal" />
+        <meta name="twitter:description" content="Leading multispecialty hospital in Biratnagar, Nepal, offering world-class neurological and advanced healthcare services." />
+        <meta name="twitter:image" content="https://www.neurohospital.com.np/og/default.jpg" />
+
         {/* Bootstrap */}
         <link
           rel="stylesheet"
